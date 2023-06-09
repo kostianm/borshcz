@@ -329,6 +329,7 @@ footer {
     justify-content: space-between;
     margin: 0 20px;
     border-bottom: 3px solid #fff;
+    padding-top: 64px;
 }
 
 .links {
@@ -343,6 +344,28 @@ footer a {
 
 .under-footer {
     text-align: center;
+}
+
+.media a:hover {
+    font-size: 150%;
+    
+}
+
+nav a:hover {
+    color: blue;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+button:hover {
+    background-color: chocolate;
+    color: green;
+}
+
+img[alt="logo"]:hover {
+background-color: #AC077E;
 }
 
 @media screen and (max-width: 1200px){
