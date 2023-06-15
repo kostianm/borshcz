@@ -81,6 +81,14 @@ nav a {
     padding: 0 1em;
 }
 
+.preload {
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .heart {
     display: flex;
     justify-content: space-between;
@@ -362,6 +370,7 @@ footer a:hover {
 button:hover {
     background-color: chocolate;
     color: green;
+    transition: all 2000ms;
 }
 
 img[alt="logo"]:hover {

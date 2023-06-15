@@ -1,0 +1,58 @@
+.preloader {
+        position: fixed;
+    
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+   
+    background: #333;
+    z-index: 1001;
+   
+}
+
+img {
+    width: 80%;
+    height: 100%;
+    
+}
+.preloader div {
+    position: relative;
+    
+        width: 10%;
+        height: 10%;
+}
+
+.first {
+top: 30%;
+    left: 40%;
+    animation: preloader-rotate 2000ms linear infinite;
+}
+
+.second {
+    top: 20%;
+    left: 60%;
+animation: preloader-rotate 2000ms linear 2000ms infinite;}
+
+.thirth {
+    top: 50%;
+    left: 40%;
+    animation: preloader-rotate 2000ms linear 4000ms infinite;
+}
+
+.fourth {
+    top: 40%;
+    left: 60%;
+    animation: preloader-rotate 2000ms linear 6000ms infinite;
+}
+
+@keyframes preloader-rotate {
+0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
